@@ -1,6 +1,7 @@
 body {
     background-color: #0D0F14;
     color: #E6E6E6;
+    font-family: "Inter", sans-serif;
 }
 
 img {
@@ -14,6 +15,7 @@ img {
 h1 {
     text-align: center;
     color: #00E5FF;
+    font-family: "Space Grotesk", sans-serif;
 }
 
 p {
