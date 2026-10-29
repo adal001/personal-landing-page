@@ -25,6 +25,12 @@ p {
     color: #8B909A;
 }
 
+section h2 {
+    text-align: center;
+    color: #00E5FF;
+    font-family: "Space Grotesk", sans-serif;
+}
+
 section ul {
     display: flex;
     justify-content: center;
@@ -33,4 +39,21 @@ section ul {
     list-style: none;
     padding: 0;
     margin-top: 24px;
+}
+
+section li {
+    padding: 10px 16px;
+    background-color: #151922;
+    border: 1px solid #2B303B;
+    border-radius: 8px;
+}
+
+section a {
+    color: #00E5FF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section a:hover {
+    color: #FF4FD8;
 }
