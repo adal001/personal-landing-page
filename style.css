@@ -67,3 +67,25 @@ section h2,
 section h3 {
     text-align: center;
 }
+
+section div {
+    background-color: #151922;
+    border: 1px solid #2B303B;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+section h3 {
+    color: #E6E6E6;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+section div a {
+    color: #00E5FF;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+section div a:hover {
+    color: #FF4FD8;
+}
