@@ -81,8 +81,14 @@ section a {
     font-weight: 500;
 }
 
-section a:hover {
+section a:hover,
+section a:focus-visible {
     color: #FF4FD8;
+}
+
+section a:focus-visible {
+    outline: 2px solid #FF4FD8;
+    outline-offset: 4px;
 }
 
 /* Project card and its contents */
@@ -116,7 +122,13 @@ section a:hover {
     transition: background-color 0.2s, color 0.2s;
 }
 
-.project-card a:hover {
+.project-card a:hover,
+.project-card a:focus-visible {
     background-color: #00E5FF;
     color: #0D0F14;
+}
+
+.project-card a:focus-visible {
+    outline: 2px solid #00E5FF;
+    outline-offset: 4px;
 }
