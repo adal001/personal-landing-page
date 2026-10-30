@@ -30,6 +30,13 @@ h1 {
     margin: 24px 0 16px;
 }
 
+hr {
+    border: none;
+    border-top: 2px solid #FF4FD8;
+    max-width: 215px;
+    margin: 40px auto;
+}
+
 /* Section layout */
 
 section {
