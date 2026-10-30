@@ -151,4 +151,6 @@ section a:focus-visible {
 .support-card p {
     line-height: 1.6;
     overflow-wrap: anywhere;
+    font-family: monospace;
+    font-size: 14px;
 }
