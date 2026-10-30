@@ -25,7 +25,7 @@ p {
 
 h1 {
     text-align: center;
-    color: #00E5FF;
+    color: #FF4FD8;
     font-family: "Space Grotesk", sans-serif;
     margin: 24px 0 16px;
 }
@@ -104,6 +104,7 @@ section a:focus-visible {
 .project-card h3 {
     margin-top: 0;
     margin-bottom: 16px;
+    color: #7CFFB2;
 }
 
 .project-card p {
@@ -117,19 +118,20 @@ section a:focus-visible {
     width: fit-content;
     margin: 0 auto;
     padding: 8px 12px;
-    border: 1px solid #00E5FF;
+    border: 1px solid #7CFFB2;
     border-radius: 6px;
     transition: background-color 0.2s, color 0.2s;
+    color: #7CFFB2;
 }
 
 .project-card a:hover,
 .project-card a:focus-visible {
-    background-color: #00E5FF;
+    background-color: #7CFFB2;
     color: #0D0F14;
 }
 
 .project-card a:focus-visible {
-    outline: 2px solid #00E5FF;
+    outline: 2px solid #7CFFB2;
     outline-offset: 4px;
 }
 
@@ -155,10 +157,19 @@ section a:focus-visible {
     font-size: 14px;
 }
 
-.bitcoin-card {
-    border-top: 2px solid #00E5FF;
+.bitcoin-card,
+.monero-card {
+    border-top: 2px solid #FFB86B;
 }
 
-.monero-card {
-    border-top: 2px solid #FF4FD8;
+.contact h2 {
+    color: #00E5FF;
+}
+
+.projects h2 {
+    color: #7CFFB2;
+}
+
+.support h2 {
+    color: #FFB86B;
 }
