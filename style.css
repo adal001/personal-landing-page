@@ -133,8 +133,22 @@ section a:focus-visible {
     outline-offset: 4px;
 }
 
-/* Support card */
+/* Support cards */
 
 .support-card {
     margin-top: 24px;
+    background-color: #151922;
+    border: 1px solid #2B303B;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.support-card h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+}
+
+.support-card p {
+    line-height: 1.6;
+    overflow-wrap: anywhere;
 }
