@@ -132,3 +132,9 @@ section a:focus-visible {
     outline: 2px solid #00E5FF;
     outline-offset: 4px;
 }
+
+/* Support card */
+
+.support-card {
+    margin-top: 24px;
+}
