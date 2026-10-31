@@ -21,6 +21,14 @@ p {
     color: #8B909A;
 }
 
+/* Paragraph spacing */
+
+.intro-text span,
+.support-text span {
+    display: block;
+    margin-bottom: 7px;
+}
+
 /* Main heading */
 
 h1 {
