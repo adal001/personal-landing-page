@@ -12,6 +12,7 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
+    border: 2px solid #AEB4BF;
 }
 
 p {
