@@ -63,6 +63,10 @@ section h3 {
     color: #E6E6E6;
 }
 
+section h2 {
+    margin: 0 0 16px;
+}
+
 .contact h2 {
     color: #00E5FF;
 }
@@ -84,7 +88,7 @@ section ul {
     gap: 16px;
     list-style: none;
     padding: 0;
-    margin-top: 24px;
+    margin: 24px 0 0;
 }
 
 section li {
