@@ -194,3 +194,7 @@ section a:focus-visible {
 .monero-card {
     border-top: 2px solid #FFB86B;
 }
+
+.support-thanks {
+    margin-top: 24px;
+}
