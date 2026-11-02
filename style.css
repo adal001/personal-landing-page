@@ -33,8 +33,8 @@ p {
 
 /* Paragraph spacing */
 
-.intro-text span,
-.support-text span {
+.intro-text span:not(:last-child),
+.support-text span:not(:last-child) {
     display: block;
     margin-bottom: 7px;
 }
@@ -197,4 +197,6 @@ section a:focus-visible {
 
 .support-thanks {
     margin-top: 24px;
+    color: #FFB86B;
+    font-weight: 500;
 }
