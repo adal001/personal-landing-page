@@ -90,18 +90,21 @@ section h2 {
 
 /* Contact list */
 
-section ul {
+.contact ul {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
     list-style: none;
     padding: 0;
     margin: 24px 0 0;
 }
 
-section li {
+.contact li {
+    width: 200px;
+    max-width: 100%;
     padding: 10px 16px;
+    text-align: center;
     background-color: #151922;
     border: 1px solid #2B303B;
     border-radius: 8px;
