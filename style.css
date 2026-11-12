@@ -84,6 +84,10 @@ section h2 {
     color: #7CFFB2;
 }
 
+.blog h2 {
+    color: #FF4D4D;
+}
+
 .support h2 {
     color: #FFB86B;
 }
@@ -168,6 +172,49 @@ section a:focus-visible {
 
 .project-card a:focus-visible {
     outline: 2px solid #7CFFB2;
+    outline-offset: 4px;
+}
+
+/* Blog cards */
+
+.blog-card {
+    background-color: #151922;
+    border: 1px solid #2B303B;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 24px;
+}
+
+.blog-card h3 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    color: #FF4D4D;
+}
+
+.blog-card p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.blog-card a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 8px 12px;
+    border: 1px solid #FF4D4D;
+    border-radius: 6px;
+    transition: background-color 0.2s, color 0.2s;
+    color: #FF4D4D;
+}
+
+.blog-card a:hover,
+.blog-card a:focus-visible {
+    background-color: #FF4D4D;
+    color: #0D0F14;
+}
+
+.blog-card a:focus-visible {
+    outline: 2px solid #FF4D4D;
     outline-offset: 4px;
 }
 
