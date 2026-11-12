@@ -1,0 +1,23 @@
+/* General styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #0D0F14;
+    color: #E6E6E6;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+/* Reading column */
+
+main {
+    width: 100%;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
