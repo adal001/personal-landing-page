@@ -417,1020 +417,995 @@
 
         <section>
             <h2>Flujo de trabajo del proyecto</h2>
-
-            <p>
-                Para demostrar el proceso de desarrollo de una página web, creé
-                un proyecto de ejemplo llamado «Búho Hacker», utilizando HTML y
-                CSS.
-            </p>
-
-            <p>
-                A continuación, explicaré las principales etapas del proceso,
-                desde la creación del repositorio hasta la organización visual
-                de la página. También incluiré capturas de pantalla para
-                ilustrar los pasos más importantes.
-            </p>
-
-            <h3>Creación del repositorio en GitHub y clonación en terminal</h3>
                 <p>
-                    Para comenzar, creé un repositorio público en GitHub llamado
-                    «ejemplo-pagina-web». Desde la página principal de GitHub,
-                    seleccioné el símbolo «+» y después la opción «New repository».
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/1.png"
-                    alt="Menú de creación de repositorios en GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    En el formulario de creación, escribí el nombre del repositorio,
-                    dejé la descripción en blanco, seleccioné la visibilidad pública
-                    y activé la opción para incluir un archivo README. Las demás
-                    opciones las conservé con sus valores predeterminados.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/2.png"
-                    alt="Configuración del nuevo repositorio."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después de crear el repositorio, GitHub mostró su página
-                    principal, donde podía consultar los archivos y realizar
-                    futuras modificaciones.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/3.png"
-                    alt="Página principal del repositorio."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para descargar una copia del repositorio en mi computadora,
-                    presioné el botón verde «Code», seleccioné la opción «SSH»
-                    y copié la dirección proporcionada por GitHub.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/4.png"
-                    alt="Selección de la opción SSH."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para utilizar SSH, primero es necesario configurar la conexión
-                    entre nuestra computadora y GitHub. Yo realicé este procedimiento
-                    siguiendo las instrucciones de
-                    <a href="https://www.theodinproject.com/lessons/foundations-setting-up-git">
-                        The Odin Project
-                    </a>.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/5.png"
-                    alt="Confirmación de la copia del enlace SSH."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Finalmente, abrí la terminal y creé una carpeta llamada «ejemplo»
-                    utilizando el comando «mkdir». Después ingresé a ella con «cd»
-                    y ejecuté «git clone» seguido de la dirección SSH que había copiado.
+                    La siguiente es una pequeña demostración del proceso de
+                    desarrollo mediante la creación de una página web "mini".
                 </p>
 
                 <p>
-                    Una vez completada la clonación, utilicé «ls -F» para comprobar
-                    que el repositorio se había descargado. Ingresé a la carpeta
-                    «ejemplo-pagina-web» con «cd» y ejecuté nuevamente «ls -F»
-                    para verificar que contenía el archivo README.md.
+                    Explicaré las principales etapas del proceso, desde la
+                    creación del repositorio hasta la organización visual del
+                    sitio. Asimismo, incluiré capturas de pantalla para ilustrar
+                    los pasos que se lleven a cabo.
                 </p>
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/6.png"
-                    alt="Clonación del repositorio desde la terminal."
-                    width="1920"
-                    height="1037"
-                >
-
-            <h3>Agregar descripción sobre el proyecto al archivo README.md</h3>
-                <p>
-                    Después de clonar el repositorio, utilicé el comando «code .»
-                    desde la terminal para abrir la carpeta del proyecto en Visual
-                    Studio Code.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/7.png"
-                    alt="Apertura del proyecto en Visual Studio Code."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al abrir el proyecto, Visual Studio Code mostró un aviso de
-                    seguridad llamado «Restricted Mode». Como se trataba de un
-                    repositorio creado por mí, seleccioné la opción
-                    «In a Trusted Folder» para confiar en su contenido.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/8.png"
-                    alt="Aviso de seguridad de Visual Studio Code."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/9.png"
-                    alt="Selección de la opción In a Trusted Folder."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    A continuación, edité el archivo README.md para agregar
-                    una breve descripción del proyecto y explicar su propósito.
-                    Después guardé los cambios utilizando «Ctrl + S».
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/10.png"
-                    alt="Edición de la descripción del proyecto en README.md."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Regresé a la terminal y utilicé «git status» para revisar
-                    los cambios realizados. Después ejecuté «git add .»
-                    para prepararlos y consulté nuevamente su estado.
-                    Finalmente, utilicé «git commit .» para registrar
-                    las modificaciones.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/11.png"
-                    alt="Preparación de los cambios y ejecución de Git."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para escribir los mensajes de los commits desde Visual Studio
-                    Code, había configurado previamente este programa como editor
-                    de Git. Seguí las instrucciones de
-                    <a href="https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor">
-                        The Odin Project
-                    </a>
-                    para realizar esta configuración.
-                </p>
-
-                <p>
-                    Al ejecutar el comando para crear el commit, Visual Studio
-                    Code abrió una pestaña donde escribí el mensaje correspondiente.
-                    Después guardé el archivo y cerré la pestaña para completar
-                    la operación.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/12.png"
-                    alt="Editor de mensajes de commit en Visual Studio Code."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/13.png"
-                    alt="Escritura y guardado del mensaje del commit."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/14.png"
-                    alt="Notificación de finalización del comando Git."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al regresar a la terminal, comprobé que Git había registrado
-                    el commit correctamente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/15.png"
-                    alt="Confirmación del commit en la terminal."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después utilicé «git status» para revisar el repositorio
-                    y ejecuté «git push origin main» para enviar los cambios
-                    a GitHub. Finalmente, consulté nuevamente su estado.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/16.png"
-                    alt="Envío de los cambios a GitHub desde la terminal."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al visitar nuevamente el repositorio en GitHub, pude comprobar
-                    que el archivo README.md mostraba la descripción que había
-                    agregado.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/17.png"
-                    alt="Descripción del proyecto publicada en GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    GitHub también permite consultar el historial de commits.
-                    Para comprobarlo, abrí la lista de commits del repositorio
-                    y seleccioné el más reciente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/18.png"
-                    alt="Acceso al historial de commits en GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/19.png"
-                    alt="Lista de commits del repositorio."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/20.png"
-                    alt="Selección del commit más reciente."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al abrir el commit, GitHub mostró la información del cambio
-                    realizado y las modificaciones registradas en el archivo.
-                    Esto permite consultar cómo ha evolucionado un proyecto
-                    a lo largo del tiempo.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/21.png"
-                    alt="Detalles del commit y cambios registrados en GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-            <h3>Desarrollo de la estructura de la página con HTML</h3>
-                <p>
-                    Una vez preparado el repositorio, comencé a crear los archivos
-                    necesarios para desarrollar la página web. Primero utilicé
-                    «ls -F» para consultar su contenido y después ejecuté
-                    «touch index.html style.css» para crear los archivos HTML y CSS.
-                    También creé una carpeta llamada «images» utilizando «mkdir».
-                    Finalmente, abrí el proyecto en Visual Studio Code con «code .».
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/22.png"
-                    alt="Creación de los archivos y carpetas del proyecto."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después escribí la estructura HTML de la página, incluyendo
-                    una imagen de perfil animada, una breve presentación y una sección
-                    con diferentes opciones de contacto. En esta primera etapa no
-                    vinculé el archivo CSS, ya que quería mostrar cómo se presenta
-                    una página web utilizando únicamente HTML.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/23.png"
-                    alt="Primera parte de la estructura HTML."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/24.png"
-                    alt="Segunda parte de la estructura HTML."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para simplificar esta demostración, escribí toda la estructura
-                    HTML antes de registrar los cambios. Sin embargo, durante el
-                    desarrollo de un proyecto es recomendable realizar commits
-                    pequeños y enfocados, conocidos como «atomic commits».
-                    Estos permiten mantener un historial más claro de las
-                    modificaciones realizadas. Puedes consultar una explicación
-                    sobre cuándo realizar un commit en
-                    <a href="https://www.theodinproject.com/lessons/foundations-commit-messages#when-to-commit">
-                        The Odin Project
-                    </a>.
-                </p>
-
-                <p>
-                    Una vez terminada la estructura inicial, utilicé «git status»
-                    para revisar los cambios y «git add index.html images/»
-                    para prepararlos. Después consulté nuevamente el estado del
-                    repositorio y ejecuté «git commit .» para registrar el trabajo.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/25.png"
-                    alt="Preparación de los archivos HTML y de imagen para el commit."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Escribí el mensaje del commit en Visual Studio Code y guardé
-                    el archivo para completar la operación. Después regresé
-                    a la terminal y utilicé «git push origin main» para enviar
-                    los cambios a GitHub.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/26.png"
-                    alt="Mensaje del commit de la estructura HTML."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/27.png"
-                    alt="Envío de los cambios HTML a GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al consultar nuevamente el historial de commits en GitHub,
-                    pude comprobar que el cambio había quedado registrado.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/28.png"
-                    alt="Historial de commits después de agregar HTML."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para visualizar el resultado, abrí otra terminal, ingresé
-                    a la carpeta del repositorio y utilicé «ls -F» para consultar
-                    sus archivos. Después ejecuté «chromium-browser index.html»
-                    para abrir la página directamente en Chromium.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/29.png"
-                    alt="Apertura del archivo HTML en Chromium desde la terminal."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    El navegador mostró la página con los estilos predeterminados
-                    de HTML. Aunque todavía no tenía un diseño personalizado,
-                    ya era posible visualizar la imagen, leer la presentación
-                    y utilizar los enlaces de contacto.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/30.png"
-                    alt="Página del Búho Hacker antes de agregar CSS."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Posteriormente, realicé un cambio pequeño en el archivo HTML:
-                    agregué los atributos «width» y «height» a la imagen para
-                    especificar sus dimensiones originales. Este cambio fue
-                    registrado por separado, como ejemplo de un commit enfocado
-                    en una modificación concreta.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/31.png"
-                    alt="Incorporación de las dimensiones originales del GIF."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para registrar la modificación, utilicé «git status»,
-                    «git add index.html» y nuevamente «git status».
-                    Después ejecuté «git commit .», escribí el mensaje
-                    correspondiente en Visual Studio Code y envié los cambios
-                    a GitHub mediante «git push origin main».
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/32.png"
-                    alt="Preparación del cambio en las dimensiones del GIF."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/33.png"
-                    alt="Mensaje del commit de las dimensiones del GIF."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/34.png"
-                    alt="Publicación del nuevo commit en GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Finalmente, consulté nuevamente el historial de commits
-                    en GitHub para comprobar que la modificación se había
-                    registrado correctamente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/35.png"
-                    alt="Historial de commits con el cambio de dimensiones del GIF."
-                    width="1920"
-                    height="1037"
-                >
-
-            <h3>Aplicación de estilos con CSS</h3>
-                <p>
-                    Una vez terminada la estructura HTML, comencé a personalizar
-                    la apariencia de la página utilizando CSS. Como el proyecto
-                    ya estaba abierto en Visual Studio Code, primero agregué
-                    una etiqueta «link» dentro del elemento «head» para vincular
-                    el archivo style.css con index.html.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/36.png"
-                    alt="Vinculación del archivo CSS con HTML."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después escribí las reglas CSS para modificar los colores
-                    de fondo y texto, establecer la tipografía y ajustar los
-                    espacios entre los elementos. También definí el tamaño
-                    de la imagen de perfil y agregué un borde a su alrededor.
-                </p>
-
-                <p>
-                    Además, personalicé los enlaces para que cambiaran de color
-                    al colocar el cursor sobre ellos o seleccionarlos mediante
-                    la tecla «Tab». Para facilitar la navegación con el teclado,
-                    también agregué un contorno visible a los enlaces seleccionados.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/37.png"
-                    alt="Primera parte de los estilos CSS."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/38.png"
-                    alt="Segunda parte de los estilos CSS."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para comprobar el resultado, regresé a Chromium y actualicé
-                    la pestaña donde tenía abierta la página. Los cambios
-                    permitieron visualizar una apariencia personalizada sin
-                    modificar el contenido HTML.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/39.png"
-                    alt="Página del Búho Hacker después de aplicar CSS."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Una vez comprobados los estilos, regresé a la terminal
-                    y utilicé «git status» para revisar las modificaciones.
-                    Después ejecuté «git add .» para prepararlas, consulté
-                    nuevamente el estado del repositorio y utilicé
-                    «git commit .» para registrar los cambios.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/40.png"
-                    alt="Preparación de los cambios CSS mediante Git."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Escribí el mensaje del commit en Visual Studio Code,
-                    guardé el archivo y cerré la pestaña para completar
-                    la operación.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/41.png"
-                    alt="Mensaje del commit de los estilos CSS."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Finalmente, ejecuté «git push origin main» desde la terminal
-                    para enviar los cambios a GitHub.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/42.png"
-                    alt="Envío de los estilos CSS a GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al consultar el historial de commits en GitHub, comprobé
-                    que las modificaciones habían quedado registradas
-                    correctamente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/43.png"
-                    alt="Historial de commits después de agregar CSS."
-                    width="1920"
-                    height="1037"
-                >
-
-            <h3>Posicionamiento de los elementos de la página con Flexbox</h3>
-                <p>
-                    Después de aplicar los estilos visuales, continué organizando
-                    los elementos de la página. Primero ajusté los márgenes de
-                    los párrafos para reducir el espacio entre ellos y conseguir
-                    una presentación más compacta.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/44.png"
-                    alt="Ajuste de los márgenes de los párrafos."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después utilicé Flexbox para organizar la lista de contacto.
-                    Establecí una distribución vertical con «flex-direction: column»,
-                    centré sus elementos con «align-items: center» y ajusté su
-                    separación utilizando «gap». También eliminé las viñetas
-                    y los espacios predeterminados de la lista.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/45.png"
-                    alt="Organización de la lista de contacto con Flexbox."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    A continuación, utilicé Flexbox para distribuir el contenido
-                    general de la página. Apliqué reglas a los elementos «main»,
-                    «header» y «section» para centrar el contenido, organizarlo
-                    verticalmente y controlar los espacios disponibles.
-                    También limité el ancho de las secciones y centré sus textos.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/46.png"
-                    alt="Distribución y alineación del contenido de la página."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para comprobar los cambios, regresé a Chromium y actualicé
-                    la página. El contenido ahora aparecía centrado y organizado
-                    verticalmente, con una separación más uniforme entre los
-                    diferentes elementos.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/47.png"
-                    alt="Resultado de la distribución del contenido con Flexbox."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Una vez terminado el posicionamiento, utilicé «git status»
-                    para revisar los cambios, «git add .» para prepararlos
-                    y nuevamente «git status» para comprobar su estado.
-                    Después ejecuté «git commit .» para registrarlos.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/48.png"
-                    alt="Preparación de los cambios de distribución con Git."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Escribí el mensaje del commit en Visual Studio Code,
-                    guardé el archivo y cerré la pestaña. Finalmente,
-                    ejecuté «git push origin main» desde la terminal
-                    para enviar los cambios a GitHub.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/49.png"
-                    alt="Mensaje del commit de organización visual."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/50.png"
-                    alt="Envío de los cambios de distribución a GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después consulté el historial de commits en GitHub
-                    para comprobar que las modificaciones habían quedado
-                    registradas correctamente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/51.png"
-                    alt="Historial de commits después de organizar el contenido."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Como último ajuste visual, agregué una regla CSS para los
-                    elementos «li» de la lista de contacto. Definí su ancho,
-                    agregué espacio interior mediante «padding» e incorporé
-                    un color de fondo, un borde y esquinas redondeadas.
-                    Así, cada opción de contacto adquirió una apariencia de tarjeta.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/52.png"
-                    alt="Aplicación del estilo de tarjeta a los contactos."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después actualicé la página en Chromium para comprobar
-                    el resultado. Las opciones de contacto ahora se mostraban
-                    como tarjetas individuales, manteniendo su alineación
-                    y separación gracias a Flexbox.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/53.png"
-                    alt="Resultado final de las tarjetas de contacto."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para registrar este último cambio, ejecuté «git status»,
-                    «git add .», nuevamente «git status» y «git commit .».
-                    Después escribí el mensaje correspondiente en Visual Studio
-                    Code y envié el commit a GitHub con «git push origin main».
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/54.png"
-                    alt="Preparación de los estilos de tarjetas mediante Git."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/55.png"
-                    alt="Mensaje del commit de las tarjetas de contacto."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/56.png"
-                    alt="Envío del último commit a GitHub."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Finalmente, revisé nuevamente el historial de commits
-                    en GitHub para confirmar que los últimos cambios
-                    se habían registrado correctamente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/57.png"
-                    alt="Historial de commits con los últimos cambios del proyecto."
-                    width="1920"
-                    height="1037"
-                >
+                <h3>Creación del repositorio en GitHub y clonación en terminal</h3>
+                    <p>
+                        Para comenzar, creé un repositorio público llamado
+                        "ejemplo-pagina-web". Desde la página principal de
+                        GitHub, seleccioné el símbolo de "+" y después la opción
+                        "New repository".
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/1.png"
+                            alt="Menú de creación de repositorios en GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        En el formulario de creación, escribí el nombre del
+                        repositorio, dejé la descripción en blanco, seleccioné
+                        la visibilidad pública y activé la opción para incluir
+                        un archivo README. Las demás opciones las dejé con sus
+                        valores predeterminados.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/2.png"
+                            alt="Configuración del nuevo repositorio."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Después de crear el repositorio, GitHub mostró su página
+                        principal.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/3.png"
+                            alt="Página principal del repositorio."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para descargar una copia del repositorio en mi
+                        computadora, presioné el botón verde "Code", seleccioné
+                        la opción "SSH" y copié la dirección proporcionada.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/4.png"
+                            alt="Selección de la opción SSH."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para utilizar la opción anteriormente mencionada,
+                        primero es necesario configurar la conexión entre
+                        nuestra computadora y GitHub. Yo realicé este
+                        procedimiento siguiendo las instrucciones del artículo
+                        <a
+                            href="https://www.theodinproject.com/lessons/foundations-setting-up-git"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Setting up Git.
+                        </a>
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/5.png"
+                            alt="Confirmación de la copia del enlace SSH."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Finalmente, abrí la terminal y creé una carpeta llamada
+                        "ejemplo" utilizando el comando "mkdir". Después,
+                        ingresé a ella usando "cd" y ejecuté "git clone" seguido
+                        de la dirección SSH que había copiado.
+                    </p>
+
+                    <p>
+                        Una vez terminada la clonación, utilicé "ls -F" para
+                        comprobar que el repositorio se había descargado.
+                        Ingresé a la carpeta "ejemplo-pagina-web" con "cd" y
+                        ejecuté nuevamente "ls -F" para verificar que contenía
+                        el archivo README.md.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/creacion-repositorio-github/6.png"
+                            alt="Clonación del repositorio desde la terminal."
+                            width="1920"
+                            height="1037"
+                        >
+
+                <h3>Agregar descripción sobre el proyecto al archivo README.md</h3>
+                    <p>
+                        Ya con una copia local en mi computadora, utilicé el
+                        comando "code ." desde la terminal para abrir la carpeta
+                        del proyecto en Visual Studio Code.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/7.png"
+                            alt="Apertura del proyecto en Visual Studio Code."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Al abrir el proyecto, Visual Studio Code mostró un aviso
+                        de seguridad. Como se trataba de un trabajo hecho por
+                        mí, hice click en el botón de "Trust" para confiar en su
+                        contenido.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/8.png"
+                            alt="Aviso de seguridad de Visual Studio Code."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/9.png"
+                            alt="Selección de la opción In a Trusted Folder."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        A continuación, edité el archivo README.md para agregar
+                        una breve descripción del proyecto y explicar su
+                        propósito. Después guardé los cambios utilizando
+                        "Ctrl + S".
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/10.png"
+                            alt="Edición de la descripción del proyecto en README.md."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Regresé a la terminal y utilicé "git status" para
+                        revisar los cambios realizados. Después ejecuté
+                        "git add ." para prepararlos y consulté nuevamente su
+                        estado. Finalmente, utilicé "git commit ." para
+                        registrar las modificaciones.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/11.png"
+                            alt="Preparación de los cambios y ejecución de Git."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para escribir los mensajes de los "commits" desde Visual
+                        Studio Code, seleccioné este programa como editor de
+                        Git. Para ello, seguí las instrucciones mostradas en:
+                        <a
+                            href="https://www.theodinproject.com/lessons/foundations-git-basics#changing-the-git-commit-message-editor"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Changing the Git commit message editor.
+                        </a>
+                    </p>
+
+                    <p>
+                        Al ejecutar el comando para crear el "commit", Visual
+                        Studio Code abrió una pestaña en la que escribí el
+                        mensaje correspondiente. Después guardé el archivo y
+                        cerré la pestaña para completar la operación.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/12.png"
+                            alt="Editor de mensajes de commit en Visual Studio Code."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/13.png"
+                            alt="Escritura y guardado del mensaje del commit."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/14.png"
+                            alt="Notificación de finalización del comando Git."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Al regresar a la terminal, comprobé que Git había
+                        registrado el "commit" correctamente.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/15.png"
+                            alt="Confirmación del commit en la terminal."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Después utilicé "git status" para revisar el estado
+                        actual del repositorio y ejecuté "git push origin main"
+                        para enviar los cambios a GitHub. Y consulté
+                        el estado otra vez.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/16.png"
+                            alt="Envío de los cambios a GitHub desde la terminal."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Al visitar el repositorio en GitHub, pude comprobar que
+                        el archivo README.md mostraba la descripción que había
+                        agregado.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/17.png"
+                            alt="Descripción del proyecto publicada en GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        GitHub también permite consultar el historial de
+                        "commits". Para comprobarlo, abrí la lista que aparece
+                        en el repositorio y seleccioné el más reciente.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/18.png"
+                            alt="Acceso al historial de commits en GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/19.png"
+                            alt="Lista de commits del repositorio."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/20.png"
+                            alt="Selección del commit más reciente."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Al abrir el "commit", GitHub mostró la información del
+                        cambio realizado y las modificaciones registradas en el
+                        archivo. Esto permite consultar la manera en la que ha
+                        ido evolucionado un proyecto a lo largo del tiempo.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/agregar-descripcion-proyecto-readme/21.png"
+                            alt="Detalles del commit y cambios registrados en GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                <h3>Desarrollo de la estructura de la página con HTML</h3>
+                    <p>
+                        Una vez preparado el repositorio, comencé a crear los
+                        archivos necesarios para desarrollar la página web. Esto
+                        usando el comando "touch" y nombrando los documentos
+                        como "index.html" y "style.css". También creé una
+                        carpeta llamada "images". Finalmente, abrí el proyecto
+                        en Visual Studio Code.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/22.png"
+                            alt="Creación de los archivos y carpetas del proyecto."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Después escribí la estructura HTML de la página,
+                        incluyendo un GIF, una breve presentación y una sección
+                        con diferentes opciones de contacto. En esta primera
+                        etapa no vinculé el archivo CSS, ya que quería mostrar
+                        cómo se presenta una página web utilizando únicamente
+                        HTML.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/23.png"
+                            alt="Primera parte de la estructura HTML."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/24.png"
+                            alt="Segunda parte de la estructura HTML."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para simplificar esta demostración, escribí toda la
+                        estructura HTML antes de registrar los cambios. Sin
+                        embargo, durante el desarrollo de un proyecto es
+                        recomendable realizar "commits" pequeños y precisos,
+                        conocidos también como "atomic commits". Estos permiten
+                        mantener un historial más claro de las modificaciones
+                        realizadas. Puedes consultar una explicación sobre
+                        cuándo realizar un commit en
+                        <a
+                        href="https://www.theodinproject.com/lessons/foundations-commit-messages#when-to-commit"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            When to commit.
+                        </a>
+                    </p>
+
+                    <p>
+                        Una vez terminada la estructura inicial, utilicé
+                        "git status" para revisar los cambios y "git add
+                        index.html images/" para prepararlos. Después consulté
+                        nuevamente el estado del repositorio y ejecuté "git
+                        commit ." para registrar el trabajo.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/25.png"
+                            alt="Preparación de los archivos HTML y de imagen para el commit."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Escribí el mensaje del "commit" en Visual Studio Code y
+                        guardé el archivo para completar la operación. Después
+                        regresé a la terminal y utilicé "git push origin main"
+                        para enviar los cambios a GitHub.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/26.png"
+                            alt="Mensaje del commit de la estructura HTML."
+                            width="1920"
+                            height="1037"
+                        >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/27.png"
+                            alt="Envío de los cambios HTML a GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Al consultar nuevamente el historial de "commits" en
+                        GitHub, pude comprobar que el cambio había quedado
+                        registrado.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/28.png"
+                            alt="Historial de commits después de agregar HTML."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para visualizar el resultado, abrí otra terminal,
+                        ingresé a la carpeta del repositorio y consulté sus
+                        archivos. Después ejecuté "chromium-browser index.html"
+                        para abrir la página directamente en Chromium.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/29.png"
+                            alt="Apertura del archivo HTML en Chromium desde la terminal."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        El navegador mostró la página con los estilos
+                        predeterminados de HTML. Aunque todavía no tenía un
+                        diseño personalizado, ya era posible visualizar el GIF,
+                        leer la presentación y utilizar los enlaces de contacto.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/30.png"
+                            alt="Página del Búho Hacker antes de agregar CSS."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Posteriormente, realicé un cambio pequeño en el archivo
+                        HTML: agregué los atributos "width" y "height" al GIF
+                        para especificar sus dimensiones originales. Este cambio
+                        fue registrado por separado, como ejemplo de un "atomic
+                        commit" de una modificación concreta.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/31.png"
+                            alt="Incorporación de las dimensiones originales del GIF."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para registrar la modificación, utilicé "git status",
+                        "git add index.html" y nuevamente "git status".
+                        Después ejecuté "git commit .", escribí el mensaje
+                        correspondiente en Visual Studio Code y envié los
+                        cambios a GitHub mediante "git push origin main".
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/32.png"
+                            alt="Preparación del cambio en las dimensiones del GIF."
+                            width="1920"
+                            height="1037"
+                        >
+
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/33.png"
+                            alt="Mensaje del commit de las dimensiones del GIF."
+                            width="1920"
+                            height="1037"
+                        >
+
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/34.png"
+                            alt="Publicación del nuevo commit en GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Al consultar nuevamente el historial de "commits" en
+                        GitHub, la modificación se había registrado
+                        correctamente.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/desarrollo-estructura-html/35.png"
+                            alt="Historial de commits con el cambio de dimensiones del GIF."
+                            width="1920"
+                            height="1037"
+                        >
+
+                <h3>Aplicación de estilos con CSS</h3>
+                    <p>
+                        Una vez terminada la estructura HTML, comencé a
+                        personalizar la apariencia de la página utilizando CSS.
+                        Como el proyecto ya estaba abierto en Visual Studio
+                        Code, primero agregué una etiqueta "link" dentro de la
+                        sección "head" en index.html para enlazar el archivo con
+                        style.css.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/36.png"
+                            alt="Vinculación del archivo CSS con HTML."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Después escribí las reglas CSS necesarias para modificar
+                        los colores de fondo y texto, establecer la tipografía y
+                        ajustar los espacios entre los elementos. También definí
+                        el tamaño del GIF y agregué un marco a su alrededor.
+                    </p>
+
+                    <p>
+                        Además, personalicé los enlaces para que cambiaran de
+                        color al colocar el cursor sobre ellos o seleccionarlos
+                        mediante la tecla "Tab". Para facilitar la navegación
+                        con el teclado, también agregué un contorno visible a
+                        los enlaces seleccionados.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/37.png"
+                            alt="Primera parte de los estilos CSS."
+                            width="1920"
+                            height="1037"
+                        >
+
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/38.png"
+                            alt="Segunda parte de los estilos CSS."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para comprobar el resultado, regresé a Chromium y
+                        actualicé la pestaña en donde tenía abierta la página.
+                        Los cambios permitieron observar como la apariencia
+                        cambió sin modificar el contenido HTML.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/39.png"
+                            alt="Página del Búho Hacker después de aplicar CSS."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Regresé a la terminal para revisar las modificaciones,
+                        las preparé, consulté nuevamente el estado del
+                        repositorio y registré los cambios.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/40.png"
+                            alt="Preparación de los cambios CSS mediante Git."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Escribí el mensaje del "commit", guardé el archivo y
+                        cerré la pestaña para completar la operación.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/41.png"
+                            alt="Mensaje del commit de los estilos CSS."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Finalmente, envié los cambios a GitHub.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/42.png"
+                            alt="Envío de los estilos CSS a GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Consulté el historial y comprobé que las modificaciones
+                        habían quedado registradas.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/aplicacion-estilos-css/43.png"
+                            alt="Historial de commits después de agregar CSS."
+                            width="1920"
+                            height="1037"
+                        >
+
+                <h3>Posicionamiento de los elementos de la página con Flexbox</h3>
+                    <p>
+                        Después de aplicar los estilos visuales, continué
+                        organizando los elementos de la página. Primero ajusté
+                        los márgenes de los párrafos para reducir el espacio
+                        entre ellos y, de esa forma, conseguir una presentación
+                        más compacta.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/44.png"
+                            alt="Ajuste de los márgenes de los párrafos."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Después utilicé Flexbox para organizar la lista de
+                        contacto. Establecí una distribución vertical con
+                        "flex-direction: column", centré sus elementos con
+                        "align-items: center" y ajusté el espacio de separación
+                        utilizando "gap". También eliminé los puntos y los
+                        espacios predeterminados de la lista.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/45.png"
+                            alt="Organización de la lista de contacto con Flexbox."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        A continuación, me dediqué a distribuir el contenido
+                        general de la página. Apliqué reglas a los elementos
+                        "main", "header" y "section" para centrar el contenido,
+                        organizarlo verticalmente y controlar los espacios
+                        disponibles. También limité el ancho de las secciones y
+                        centré sus textos.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/46.png"
+                            alt="Distribución y alineación del contenido de la página."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para comprobar los cambios, regresé a Chromium y
+                        actualicé la página. El contenido ahora aparecía
+                        centrado y organizado verticalmente, con una separación
+                        más uniforme entre los diferentes elementos.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/47.png"
+                            alt="Resultado de la distribución del contenido con Flexbox."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Una vez terminado el posicionamiento, revisé los cambios
+                        en la terminal, los preparé y después ejecuté el comando
+                        necesario para registrarlos.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/48.png"
+                            alt="Preparación de los cambios de distribución con Git."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Escribí el mensaje del "commit", guardé el archivo y
+                        cerré la pestaña. Ejecuté el comando requerido desde la
+                        terminal para enviar los cambios a GitHub.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/49.png"
+                            alt="Mensaje del commit de organización visual."
+                            width="1920"
+                            height="1037"
+                        >
+
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/50.png"
+                            alt="Envío de los cambios de distribución a GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Después consulté el historial de "commits" para
+                        corroborar que todo estuviera en orden.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/51.png"
+                            alt="Historial de commits después de organizar el contenido."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Como último ajuste visual, agregué una regla en CSS para
+                        los elementos "li" de la lista de contacto. Definí su
+                        ancho, agregué espacio interior mediante "padding" e
+                        incorporé un color de fondo, un borde y esquinas
+                        redondeadas. De esa manera, cada opción de contacto
+                        adquirió una apariencia de tarjeta.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/52.png"
+                            alt="Aplicación del estilo de tarjeta a los contactos."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Luego, actualicé la página en Chromium para checar el
+                        resultado. Las opciones de contacto ahora se mostraban
+                        como tarjetas individuales, manteniendo su alineación
+                        y separación gracias a Flexbox.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/53.png"
+                            alt="Resultado final de las tarjetas de contacto."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Para registrar este último cambio, ejecuté "git status",
+                        "git add .", nuevamente "git status" y "git commit .".
+                        Después escribí el mensaje correspondiente en Visual
+                        Studio Code y envié el commit a GitHub con "git push
+                        origin main".
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/54.png"
+                            alt="Preparación de los estilos de tarjetas mediante Git."
+                            width="1920"
+                            height="1037"
+                        >
+
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/55.png"
+                            alt="Mensaje del commit de las tarjetas de contacto."
+                            width="1920"
+                            height="1037"
+                        >
+
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/56.png"
+                            alt="Envío del último commit a GitHub."
+                            width="1920"
+                            height="1037"
+                        >
+
+                    <p>
+                        Ya para terminar, revisé el historial en GitHub y todo
+                        se veía bien.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/posicionamiento-elementos-flexbox/57.png"
+                            alt="Historial de commits con los últimos cambios del proyecto."
+                            width="1920"
+                            height="1037"
+                        >
         </section>
 
         <section>
             <h2>De local a global: publicación del sitio web</h2>
                 <p>
-                    Después de terminar el desarrollo de la página web,
-                    el siguiente paso fue publicarla en Internet para que
-                    cualquier persona pudiera visitarla.
+                    Después de terminar el desarrollo de la página web, el
+                    siguiente paso fue publicarla en Internet para que cualquier
+                    persona pudiera visitarla.
                 </p>
 
-                <p>
-                    Para ello, utilicé GitHub Pages, un servicio que permite
-                    publicar sitios web directamente desde un repositorio de
-                    GitHub. Posteriormente, configuré un dominio personalizado
-                    para que la página tuviera una dirección propia.
-                </p>
+                <h3>Publicación del sitio mediante GitHub Pages</h3>
+                    <p>
+                        Para comenzar, ingresé a la página principal del
+                        repositorio en GitHub.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/58.png"
+                            alt="Página principal del repositorio en GitHub."
+                            width="1920"
+                            height="1037"
+                        >
 
-            <h3>Publicación del sitio mediante GitHub Pages</h3>
-                <p>
-                    Una vez terminado el desarrollo de la página, el siguiente
-                    paso fue publicarla utilizando GitHub Pages. Para comenzar,
-                    ingresé a la página principal del repositorio en GitHub.
-                </p>
+                    <p>
+                        Después seleccioné el botón de "Settings" para acceder a
+                        las opciones de configuración del repositorio.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/59.png"
+                            alt="Selección de la pestaña Settings."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/58.png"
-                    alt="Página principal del repositorio en GitHub."
-                    width="1920"
-                    height="1037"
-                >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/60.png"
+                            alt="Página de configuración del repositorio."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <p>
-                    Después seleccioné la pestaña «Settings» para acceder
-                    a las opciones de configuración del repositorio.
-                </p>
+                    <p>
+                        Dentro de los ajustes, ingresé al apartado "Pages". En
+                        la configuración de publicación, seleccioné la rama
+                        "main" como fuente del sitio web.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/61.png"
+                            alt="Configuración de GitHub Pages."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/59.png"
-                    alt="Selección de la pestaña Settings."
-                    width="1920"
-                    height="1037"
-                >
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/62.png"
+                            alt="Selección de la rama main para la publicación."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/60.png"
-                    alt="Página de configuración del repositorio."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>
+                        Luego presioné el botón "Save" para guardar la
+                        configuración. GitHub mostró un mensaje de confirmación
+                        indicando que la fuente de publicación había sido
+                        guardada.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/63.png"
+                            alt="Confirmación de la configuración de GitHub Pages."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <p>
-                    Dentro de los ajustes, ingresé al apartado «Pages».
-                    En la configuración de publicación, seleccioné la rama
-                    «main» como fuente del sitio web.
-                </p>
+                    <p>
+                        Tras actualizar la página de configuración, pude
+                        comprobar que GitHub Pages había publicado el sitio
+                        correctamente y mostraba un enlace para visitarlo.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/64.png"
+                            alt="Confirmación de que el sitio web está publicado."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/61.png"
-                    alt="Configuración de GitHub Pages."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>
+                        Finalmente, seleccioné la opción
+                        <a
+                        href="https://adal001.github.io/ejemplo-pagina-web/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
+                            "Visit site"
+                        </a>
+                        para abrir la página en una nueva pestaña del navegador.
+                        De esta manera, el sitio dejó de estar disponible
+                        únicamente en mi computadora y pasó a ser accesible
+                        desde la red.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/65.png"
+                            alt="Página del Búho Hacker publicada mediante GitHub Pages."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/62.png"
-                    alt="Selección de la rama main para la publicación."
-                    width="1920"
-                    height="1037"
-                >
+                <h3>Extra: Configuración de un dominio personalizado</h3>
+                    <p>
+                        GitHub Pages permite publicar una página web gratuitamente
+                        utilizando una dirección proporcionada por GitHub. Sin
+                        embargo, también es posible utilizar un dominio
+                        personalizado para que el sitio tenga una dirección
+                        propia.
+                    </p>
 
-                <p>
-                    Después presioné el botón «Save» para guardar la
-                    configuración. GitHub mostró un mensaje de confirmación
-                    indicando que la fuente de publicación había sido guardada.
-                </p>
+                    <p>
+                        En mi caso, adquirí el dominio de mi página mediante
+                        <a
+                            href="https://porkbun.com/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            Porkbun.
+                        </a>
+                        A continuación, mostraré brevemente cómo buscar
+                        un dominio y comenzar el proceso de compra. Este
+                        procedimiento es totalmente opcional y no es
+                        indispensable para publicar una página web utilizando
+                        GitHub Pages.
+                    </p>
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/63.png"
-                    alt="Confirmación de la configuración de GitHub Pages."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>Primero, ingresé a la página principal de Porkbun:</p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/66.png"
+                            alt="Página principal de Porkbun."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <p>
-                    Tras actualizar la página de configuración, pude comprobar
-                    que GitHub Pages había publicado el sitio correctamente
-                    y mostraba un enlace para visitarlo.
-                </p>
+                    <p>
+                        Después escribí "buho.hacker" en el buscador para
+                        consultar las extensiones de dominio disponibles.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/67.png"
+                            alt="Búsqueda de un dominio en Porkbun."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/64.png"
-                    alt="Confirmación de que el sitio web está publicado."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>
+                        Porkbun mostró diferentes opciones de dominio junto con
+                        sus precios. Para este ejemplo, elegí
+                        "buho.hacker.dev" sin completar la compra.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/68.png"
+                            alt="Resultados de la búsqueda de dominios."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <p>
-                    Finalmente, seleccioné la opción «Visit site» para abrir
-                    la página en una nueva pestaña del navegador. De esta manera,
-                    el proyecto dejó de estar disponible únicamente en mi
-                    computadora y pasó a ser accesible desde Internet.
-                </p>
+                    <p>
+                        Para agregar el dominio al carrito, hice click en el
+                        símbolo "+" que aparece junto a la opción elegida.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/69.png"
+                            alt="Selección de un dominio para agregar al carrito."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/publicacion-sitio-github-pages/65.png"
-                    alt="Página del Búho Hacker publicada mediante GitHub Pages."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>
+                        Después apareció la opción "Checkout", que permite
+                        continuar con el proceso de compra.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/70.png"
+                            alt="Opción Checkout para continuar con la compra."
+                            width="1920"
+                            height="1037"
+                        >
 
-            <h3>Extra: Configuración de un dominio personalizado</h3>
-                <p>
-                    GitHub Pages permite publicar una página web gratuitamente
-                    utilizando una dirección proporcionada por GitHub. Sin embargo,
-                    también es posible utilizar un dominio personalizado para
-                    que el sitio tenga una dirección propia.
-                </p>
+                    <p>
+                        Al hacer click en esa opción, Porkbun mostró el carrito
+                        de compras con el dominio elegido y la información
+                        correspondiente. Desde esta página es posible revisar
+                        los detalles antes de continuar con el pago.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/71.png"
+                            alt="Parte superior del carrito de compras de Porkbun."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <p>
-                    En mi caso, adquirí mi dominio personal mediante Porkbun.
-                    A continuación, mostraré brevemente cómo buscar un dominio
-                    y comenzar el proceso de compra. Este procedimiento es
-                    opcional y no es necesario para publicar una página
-                    utilizando GitHub Pages.
-                </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/72.png"
+                            alt="Parte inferior del carrito con la opción para continuar."
+                            width="1920"
+                            height="1037"
+                        >
 
-                <p>
-                    Primero, ingresé a la página principal de
-                    <a href="https://porkbun.com/">Porkbun</a>.
-                </p>
+                    <p>
+                        Una vez adquirido un dominio, este aparece en la lista
+                        de dominios de nuestra cuenta. Desde ahí podemos acceder
+                        a su configuración DNS, la cual es necesaria para
+                        conectarlo con servicios como GitHub Pages.
+                    </p>
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/66.png"
-                    alt="Página principal de Porkbun."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>
+                        En la siguiente captura se muestra la opción DNS
+                        correspondiente a mi dominio personal, "adal.work",
+                        que adquirí anteriormente.
+                    </p>
+                        <img
+                            src="./images/proyecto-pagina-web-personal/dominio-personalizado/73.png"
+                            alt="Acceso a la configuración DNS de un dominio en Porkbun."
+                            width="493"
+                            height="165"
+                        >
 
-                <p>
-                    Después escribí «buho.hacker» en el buscador para consultar
-                    las extensiones de dominio disponibles.
-                </p>
+                    <p>
+                        Una vez adquirido el dominio, fue necesario configurarlo
+                        para que este mandara a mi página publicada mediante
+                        GitHub Pages. Para eso, utilicé la configuración DNS de
+                        Porkbun y seguí las instrucciones que aparecen en la
+                        documentación oficial de GitHub.
+                    </p>
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/67.png"
-                    alt="Búsqueda de un dominio en Porkbun."
-                    width="1920"
-                    height="1037"
-                >
+                    <p>
+                        GitHub explica a detalle cómo agregar un dominio
+                        personalizado al repositorio, configurar los registros
+                        DNS correspondientes y habilitar HTTPS. Puedes consultar
+                        el procedimiento en
+                        <a
+                            href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            Managing a custom domain for your GitHub Pages site.
+                        </a>
+                    </p>
 
-                <p>
-                    Porkbun mostró diferentes opciones de dominio junto con
-                    sus precios. Para esta demostración, seleccioné
-                    «buho.hacker.dev», sin completar ninguna compra.
-                </p>
+                    <p>
+                        También es recomendable verificar la propiedad del
+                        dominio para evitar que otros usuarios puedan utilizarlo
+                        en sus propios sitios de GitHub Pages. Este
+                        procedimiento se explica en
+                        <a
+                            href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Verifying your custom domain for GitHub Pages.
+                        </a>
+                    </p>
 
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/68.png"
-                    alt="Resultados de la búsqueda de dominios."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Para agregar el dominio al carrito, seleccioné el símbolo
-                    «+» que aparecía junto a la opción elegida.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/69.png"
-                    alt="Selección de un dominio para agregar al carrito."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Después apareció la opción «Checkout», que permite
-                    continuar con el proceso de compra.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/70.png"
-                    alt="Opción Checkout para continuar con la compra."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Al seleccionar esta opción, Porkbun mostró el carrito
-                    de compras con el dominio elegido y la información
-                    correspondiente. Desde esta página es posible revisar
-                    los detalles antes de continuar con el pago.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/71.png"
-                    alt="Parte superior del carrito de compras de Porkbun."
-                    width="1920"
-                    height="1037"
-                >
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/72.png"
-                    alt="Parte inferior del carrito con la opción para continuar."
-                    width="1920"
-                    height="1037"
-                >
-
-                <p>
-                    Una vez adquirido un dominio, este aparece en la lista
-                    de dominios de nuestra cuenta. Desde ahí podemos acceder
-                    a su configuración DNS, necesaria para conectarlo con
-                    servicios como GitHub Pages.
-                </p>
-
-                <p>
-                    En la siguiente captura se muestra la opción «DNS»
-                    correspondiente a mi dominio personal, «adal.work»,
-                    que adquirí anteriormente.
-                </p>
-
-                <img
-                    src="./images/proyecto-pagina-web-personal/dominio-personalizado/73.png"
-                    alt="Acceso a la configuración DNS de un dominio en Porkbun."
-                    width="493"
-                    height="165"
-                >
-
-                <p>
-                    Después de adquirir el dominio, fue necesario configurarlo
-                    para que apuntara a mi página publicada mediante GitHub Pages.
-                    Para ello, utilicé la configuración DNS de Porkbun y seguí
-                    las instrucciones de la documentación oficial de GitHub.
-                </p>
-
-                <p>
-                    GitHub explica cómo agregar un dominio personalizado al
-                    repositorio, configurar los registros DNS correspondientes
-                    y habilitar HTTPS. Puedes consultar el procedimiento en
-                    <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">
-                        Managing a custom domain for your GitHub Pages site
-                    </a>.
-                </p>
-
-                <p>
-                    También es recomendable verificar la propiedad del dominio
-                    para evitar que otros usuarios puedan utilizarlo en sus
-                    propios sitios de GitHub Pages. Este procedimiento se
-                    explica en
-                    <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages">
-                        Verifying your custom domain for GitHub Pages
-                    </a>.
-                </p>
-
-                <p>
-                    Con estos pasos, pude publicar mi página personal utilizando
-                    mi propio dominio. Así concluyó el proceso de desarrollo
-                    y publicación de mi sitio web.
-                </p>
+                    <p>
+                        Siguiendo estos pasos, pude publicar mi página personal
+                        utilizando mi propio dominio. De esta forma concluye el
+                        proceso de desarrollo y publicación de un sitio web.
+                    </p>
+                    
+                    <p>
+                        Espero que esta información te haya sido útil. ¡Mucho
+                        éxito en la red! ❤️
+                    </p>
         </section>
     </main>
 </body>
