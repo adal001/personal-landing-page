@@ -69,18 +69,18 @@ hr {
 }
 
 .email-card a {
-    color: #7CFFB2;
+    color: #FF4FD8;
     text-decoration: none;
     font-weight: 500;
 }
 
 .email-card a:hover,
 .email-card a:focus-visible {
-    color: #FF4FD8;
+    color: #7CFFB2;
 }
 
 .email-card a:focus-visible {
-    outline: 2px solid #FF4FD8;
+    outline: 2px solid #7CFFB2;
     outline-offset: 4px;
 }
 
@@ -157,21 +157,21 @@ section a:focus-visible {
     width: fit-content;
     margin: 0 auto;
     padding: 8px 12px;
-    border: 1px solid #FF4FD8;
+    border: 1px solid #7CFFB2;
     border-radius: 6px;
     transition: background-color 0.2s, color 0.2s;
-    color: #FF4FD8;
+    color: #7CFFB2;
 }
 
 .project-card a:hover,
 .project-card a:focus-visible {
-    background-color: #7CFFB2;
-    border-color: #7CFFB2;
+    background-color: #FF4FD8;
+    border-color: #FF4FD8;
     color: #0D0F14;
 }
 
 .project-card a:focus-visible {
-    outline: 2px solid #7CFFB2;
+    outline: 2px solid #FF4FD8;
     outline-offset: 4px;
 }
 
