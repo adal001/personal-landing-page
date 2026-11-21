@@ -55,6 +55,35 @@ hr {
     margin: 40px auto;
 }
 
+/* Email card */
+
+.email-card {
+    width: 240px;
+    max-width: 100%;
+    padding: 10px 16px;
+    margin: 24px auto 0;
+    text-align: center;
+    background-color: #151922;
+    border: 1px solid #2B303B;
+    border-radius: 8px;
+}
+
+.email-card a {
+    color: #7CFFB2;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.email-card a:hover,
+.email-card a:focus-visible {
+    color: #FF4FD8;
+}
+
+.email-card a:focus-visible {
+    outline: 2px solid #FF4FD8;
+    outline-offset: 4px;
+}
+
 /* Section layout */
 
 section {
@@ -76,42 +105,12 @@ section h2 {
     margin: 0 0 16px;
 }
 
-.contact h2 {
-    color: #00E5FF;
-}
-
 .projects h2 {
     color: #7CFFB2;
 }
 
-.blog h2 {
-    color: #FF4D4D;
-}
-
 .support h2 {
     color: #FFB86B;
-}
-
-/* Contact list */
-
-.contact ul {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 16px;
-    list-style: none;
-    padding: 0;
-    margin: 24px 0 0;
-}
-
-.contact li {
-    width: 240px;
-    max-width: 100%;
-    padding: 10px 16px;
-    text-align: center;
-    background-color: #151922;
-    border: 1px solid #2B303B;
-    border-radius: 8px;
 }
 
 /* Shared links and hover effects */
@@ -158,63 +157,21 @@ section a:focus-visible {
     width: fit-content;
     margin: 0 auto;
     padding: 8px 12px;
-    border: 1px solid #7CFFB2;
+    border: 1px solid #FF4FD8;
     border-radius: 6px;
     transition: background-color 0.2s, color 0.2s;
-    color: #7CFFB2;
+    color: #FF4FD8;
 }
 
 .project-card a:hover,
 .project-card a:focus-visible {
     background-color: #7CFFB2;
+    border-color: #7CFFB2;
     color: #0D0F14;
 }
 
 .project-card a:focus-visible {
     outline: 2px solid #7CFFB2;
-    outline-offset: 4px;
-}
-
-/* Blog cards */
-
-.blog-card {
-    background-color: #151922;
-    border: 1px solid #2B303B;
-    border-radius: 8px;
-    padding: 20px;
-    margin-top: 24px;
-}
-
-.blog-card h3 {
-    margin-top: 0;
-    margin-bottom: 16px;
-    color: #FF4D4D;
-}
-
-.blog-card p {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.blog-card a {
-    display: block;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 8px 12px;
-    border: 1px solid #FF4D4D;
-    border-radius: 6px;
-    transition: background-color 0.2s, color 0.2s;
-    color: #FF4D4D;
-}
-
-.blog-card a:hover,
-.blog-card a:focus-visible {
-    background-color: #FF4D4D;
-    color: #0D0F14;
-}
-
-.blog-card a:focus-visible {
-    outline: 2px solid #FF4D4D;
     outline-offset: 4px;
 }
 
